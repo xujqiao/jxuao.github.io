@@ -1,23 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Hexo]]></title>
-  
+  <title><![CDATA[Jxuao]]></title>
+  <subtitle><![CDATA[My Own World]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2015-11-23T15:45:02.639Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://jxuao.me/"/>
+  <updated>2015-11-24T14:17:12.000Z</updated>
+  <id>http://jxuao.me/</id>
   
   <author>
-    <name><![CDATA[John Doe]]></name>
+    <name><![CDATA[Xu Jianqiao]]></name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Rescue to Grub Not Found]]></title>
+    <link href="http://jxuao.me/2015/11/24/grub-rescue/"/>
+    <id>http://jxuao.me/2015/11/24/grub-rescue/</id>
+    <published>2015-11-24T14:07:12.000Z</published>
+    <updated>2015-11-24T14:17:12.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Grub_Rescue_Unknown_Filesystem,_but_you_can">Grub Rescue Unknown Filesystem, but you can</h1><blockquote>
+<p>If you are working with computers especially dual-system, you may have gotten such situation showed below. It means the computer can’t find the correct  <a href="https://zh.wikipedia.org/wiki/GNU_GRUB" target="_blank" rel="external">Grub, Grand Unified Bootloader.</a> So you need to help him load right sequence.</p>
+</blockquote>
+<hr>
+<p>If you want to solve it, follow the steps and you can make it.</p>
+<h2 id="Steps">Steps</h2><ol>
+<li><p>Pre-condition.</p>
+<p> Just make sure your grub <strong>works</strong> fine</p>
+</li>
+<li><p>Type ls to get all available things.</p>
+<pre><code>grub rescue &gt; ls
+<span class="comment">(hd0)</span> <span class="comment">(hd0,msdos1)</span> <span class="comment">(hd0,msdos3)</span> .... <span class="comment">(hd1,msdos8)</span>
+</code></pre></li>
+<li><p>Type ls every_result, such as ls (hd0,msdos1), got before. And remember the result(s) whose output is different from others.</p>
+<pre><code>grub resuce &gt; ls <span class="comment">(hd0)</span>
+grub resuce &gt; ls <span class="comment">(hd0,msdos1)</span>
+...
+</code></pre></li>
+<li><p>Type <strong>ls</strong> special_result/boot/grub to find whether there is grub or not.</p>
+<pre><code>grub resuce &gt; ls <span class="list">(<span class="keyword">hd0</span>,msdos1)</span>/boot/grub
+</code></pre></li>
+<li><p>If it is, then congratulations to you. You have find the correct grub. And now, all you need to do is <strong>reset</strong> it.</p>
+<pre><code>grub rescue &gt; <span class="keyword">set</span> root=(hd0,msdos1)
+grub resuce &gt; <span class="keyword">set</span> prefix=(hd0,msdos1)/<span class="keyword">boot</span>/grub
+grub resuce &gt; insmod /<span class="keyword">boot</span>/grub/normal.<span class="literal">mod</span>
+</code></pre></li>
+<li><p>After step 5, the “grub rescue &gt;” will be brighter.</p>
+<pre><code>grub <span class="keyword">rescue</span> &gt; normal
+</code></pre></li>
+</ol>
+<hr>
+<h2 id="Congratulations!">Congratulations!</h2><p>Your computer can start normally. And enjoy it:)</p>
+<p>Author <a href="https://weibo.com/snowampossible" target="_blank" rel="external">@Xujqiao</a><br>11th Nov 2015</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="Grub_Rescue_Unknown_Filesystem,_but_you_can">Grub Rescue Unknown Filesystem, but you can</h1><blockquote>
+<p>If you are working with]]>
+    </summary>
+    
+      <category term="computer" scheme="http://jxuao.me/tags/computer/"/>
+    
+      <category term="grub" scheme="http://jxuao.me/tags/grub/"/>
+    
+      <category term="Notes" scheme="http://jxuao.me/categories/Notes/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2015/11/23/hello-world/"/>
-    <id>http://yoursite.com/2015/11/23/hello-world/</id>
+    <link href="http://jxuao.me/2015/11/23/hello-world/"/>
+    <id>http://jxuao.me/2015/11/23/hello-world/</id>
     <published>2015-11-23T15:45:02.639Z</published>
     <updated>2015-11-23T15:45:02.639Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
