@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[Jxuao]]></title>
-  <subtitle><![CDATA[My Own World]]></subtitle>
+  <subtitle><![CDATA[看山是山，看水是水]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://jxuao.me/"/>
-  <updated>2015-11-30T15:22:52.860Z</updated>
-  <id>http://jxuao.me/</id>
+  <link href="http://xujqiao.github.io/"/>
+  <updated>2015-11-30T15:30:10.774Z</updated>
+  <id>http://xujqiao.github.io/</id>
   
   <author>
     <name><![CDATA[Xu Jianqiao]]></name>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[How is this Blog Set Up]]></title>
-    <link href="http://jxuao.me/2015/11/30/how-is-this-set-up/"/>
-    <id>http://jxuao.me/2015/11/30/how-is-this-set-up/</id>
+    <link href="http://xujqiao.github.io/2015/11/30/how-is-this-set-up/"/>
+    <id>http://xujqiao.github.io/2015/11/30/how-is-this-set-up/</id>
     <published>2015-11-30T13:01:56.000Z</published>
-    <updated>2015-11-30T15:22:52.860Z</updated>
+    <updated>2015-11-30T15:30:10.774Z</updated>
     <content type="html"><![CDATA[<h1 id="准备工作">准备工作</h1><h2 id="Github">Github</h2><p>Github是一个神器，曾经也被墙过，但最终还是活过来了，泪流满面。Github是Git的一个应用，算是一个远程仓库管理系统，只不过很有名，全世界范围类的程序员都在上面分享自己或者他人的开源系统。仓库类型有两种，一种是Public，中文可以翻译成公有仓库，另一叫Private，私有仓库。普通用户只能创建公有仓库，私有仓库需要人民币。Github提供了一个叫做Github Pages的东西，可以用域名访问你的公有仓库，所以如果你的仓库里是HTML等文件，那么就是网站了，是不是很帅！！当然，也没这么多好事，显然这种网站是静态的，动态网站无法完成。</p>
 <p>所以，你首先需要的就是一个Github帐号。注册的时候，需要你填写一个叫做用户名的东西，这个算是标识你的代码仓库的标识符，而且也会被用到Github Pages中，所以尽量取得心满意足一点吧。这里用username表示你申请的用户名。当你完成Github帐号的注册时候，就可以访问这个地址了<code>https://github.com/username</code>。</p>
 <pre><code><span class="string">https:</span><span class="comment">//github.com/</span>
@@ -88,63 +88,16 @@ git <span class="keyword">push</span> -u origin master <span class="preprocessor
     <![CDATA[<h1 id="准备工作">准备工作</h1><h2 id="Github">Github</h2><p>Github是一个神器，曾经也被墙过，但最终还是活过来了，泪流满面。Github是Git的一个应用，算是一个远程仓库管理系统，只不过很有名，全世界范围类的程序员都在上面分享自]]>
     </summary>
     
-      <category term="blog" scheme="http://jxuao.me/tags/blog/"/>
+      <category term="blog" scheme="http://xujqiao.github.io/tags/blog/"/>
     
-      <category term="Tells you how to do" scheme="http://jxuao.me/categories/Tells-you-how-to-do/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Goodbye Mr. Loser]]></title>
-    <link href="http://jxuao.me/2015/11/30/Goodbye-Mr-Loser/"/>
-    <id>http://jxuao.me/2015/11/30/Goodbye-Mr-Loser/</id>
-    <published>2015-11-30T12:23:45.000Z</published>
-    <updated>2015-11-30T12:53:55.324Z</updated>
-    <content type="html"><![CDATA[<h1 id="夏洛特烦恼">夏洛特烦恼</h1><p><img src="http://7xonmr.com1.z0.glb.clouddn.com/goobye-mr_loser.jpg" alt="film-logo"></p>
-<p>今年十一假期的最后一天，去电影院看了这部电影——<a href="http://movie.douban.com/subject/25964071/?source=new_aladdin" target="_blank" rel="external">夏洛特烦恼</a>。很喜欢，是喜欢的为数不多的国产电影，无论是内容还是表达故事的形式，也许倒叙总会比顺叙，在同等情况下，能产生更大的回响。这部电影和同时段的《<a href="http://movie.douban.com/subject/25710912/" target="_blank" rel="external">港囧</a>》，个人感觉，都表达了当下的才是最好的，得不到的、或者脑袋里幻想的都不如眼下的长久的意思。</p>
-<p>不过，刚看完这部片自己并没有想着写点东西的欲望，这次想写点东西是因为晚上看熊猫直播，无意间看到某主播在放这部电影，第二次看的时候发现仍然有很大的反响，我才想记下点什么的。我觉得电影表达的主题同现阶段社会中人们的情况类似吧。现阶段的中国，富裕的人越来越多，说的洋气一点叫做：中产阶级的比重已经是世界第一啦，普通一点来看：人们的穿着、使用和吃住都比以前更讲究了。然而，人的欲望是越来越膨胀的，没有的时候想着有，真正拥有的时候又想着能更多，所以会不断的追逐，而在追逐的同时，很容易忘记眼前已经拥有的美好。</p>
-<p>好吧，其实是想写一点私人的内容，但是不想发布到公开场合，而太抽象的话自己也不会说，算了，先break在这里，等我想好了再补充把。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="夏洛特烦恼">夏洛特烦恼</h1><p><img src="http://7xonmr.com1.z0.glb.clouddn.com/goobye-mr_loser.jpg" alt="film-logo"></p>
-<p>今年十一假期的最后一天，去电影院看了这]]>
-    </summary>
-    
-      <category term="what is love" scheme="http://jxuao.me/tags/what-is-love/"/>
-    
-      <category term="夏洛特烦恼" scheme="http://jxuao.me/tags/%E5%A4%8F%E6%B4%9B%E7%89%B9%E7%83%A6%E6%81%BC/"/>
-    
-      <category term="杂记" scheme="http://jxuao.me/categories/%E6%9D%82%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Worry Nothing]]></title>
-    <link href="http://jxuao.me/2015/11/25/worry-nothing/"/>
-    <id>http://jxuao.me/2015/11/25/worry-nothing/</id>
-    <published>2015-11-25T14:56:52.000Z</published>
-    <updated>2015-11-25T15:00:29.171Z</updated>
-    <content type="html"><![CDATA[<p>这在以前，会是一件很平常的事情，就跟每天发生的那些无关紧要的事情一样，不会多在意。这次的为难，却引起了我的注意和思考。</p>
-<p>事情开始之前，先说点背景故事。我读的是大学里的软件学院（SE），为了跟计算机科学（CS）区分开来，学院每学年的暑假都有一个叫实训的东西，学院的初衷是“让学生把课堂里学到的东西运用到实际中，体会真正软件工程师的工作”。听着确实不错，但事实往往不如人意。我觉得其中最不如人意的就是没有让学生感觉到他们暑期花了这些时间完成的东西，有运用到实际中，或者说对之前的学习有所帮助。由于此实训已经开展大约5、6年，因此每年的项目已经很陈旧了，没有新意。每一年都是在上一年的基础上加加减减，甚至是直接copy。前人栽树后人乘凉，答案满天飞，学生已经不把这当做一次实践，而当做一门课、一个任务，只要完成了、过关了就好，不求质量。</p>
-<p>然后，我遇到的事情是这样的。今年暑期，我作为一名保研生，被导师留下来作为上面说到的实训中某个项目的助教（我们这里叫TA）。由于负责的项目是新的内容，而且比较偏，我的项目是OpenWRT上应用开发，所以高年级里懂这方面的人不多，我因为之前研究过，所以就被当做这个案例的核心TA了，基本上他们有什么问题都会问我，幸亏基础还可以，基本上他们遇到的问题我都解决了。然后，从最开始的案例材料准备，到进度控制，到debug等等，基本上都是我主要负责。上面说到，项目是应用开发，涉及到服务器端，我自己搭了个简易接受文件的服务程序，虽然说不算什么高水平，但用了之前一直想用的python和nginx，也是自己一点一点谷歌出来的。</p>
-<p>今天，我的导师到实验室来看看情况，因为实训快要结束了，然后我运行了学生写的程序，老师看了之后比较满意，说老师那边有几个学生在实习做同样的项目，你把程序整理一下，然后我发给他们，让他们把这个做成产品化得东西，他们有什么不懂得问题就来问你了，我说好。到了晚上，在QQ上看到老师说把源码、文档，连同服务器端的东西都发给我，我好测试。</p>
-<p>我顿时内心有点不情愿，主要是因为老师让我把服务器端的配置也要上交。因为这部分完全是我自己写的，是我一点点查找出来的，虽然不难，但是对于一个没用过任何Python的web框架和nginx配置的人来说，还是要耗费一段时间的，同时我也因为这个服务器的正常运行，给了自己很大的自信。所以，至少一开始，心里都是不情愿的。想到老师拿到之后，把程序给别人，然后别人在东改西改，却没你什么事，就觉得很不是滋味。…………当然，最后还是想通了，毕竟这个项目是老师让我做的，没有他，我也没法完成这些，本身这一切都是老师的。所以后来决定等到实训结束的时候，把这一切都交给老师，也算是对老师交于的任务的一个交代。</p>
-<p>其实，这里让我为难的点，是别人会用这个东西，但是却不记得你曾经奉献过经历，这种不被人承认或者得不到肯定的滋味，不是很好受。这也让我想起之前一时兴起，决定搜索一下那些开源项目后面附的Lisence都是些什么内容，突然觉得这些Lisence存在的必要性。开源，意味着源码开放，或者说允许修改、发布等。这些，其实说句不好听的话，如果不遵守某种规则的话，开源都是对原作者的一种侮辱。然而，正式因为有了开源Lisence，让开源有章可据，“有法可依”，使得开源也能保护作者的著作权和拥有权。当然了，有些Lisence是允许完全的修改和发布商业应用的，但是这只是一种Lisence，如果你不给自己的项目附着此类Lisence，他人在使用的时候应该遵守相应的规则。我觉得这是对开源的一种尊重。</p>
-<p>作者： <a href="http://weibo.com/snowampossible" target="_blank" rel="external">@Xujqiao</a><br>25th Nov 2015</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>这在以前，会是一件很平常的事情，就跟每天发生的那些无关紧要的事情一样，不会多在意。这次的为难，却引起了我的注意和思考。</p>
-<p>事情开始之前，先说点背景故事。我读的是大学里的软件学院（SE），为了跟计算机科学（CS）区分开来，学院每学年的暑假都有一个叫实训的东西，学院]]>
-    </summary>
-    
-      <category term="杂记" scheme="http://jxuao.me/categories/%E6%9D%82%E8%AE%B0/"/>
+      <category term="Tells you how to do" scheme="http://xujqiao.github.io/categories/Tells-you-how-to-do/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Rescue to Grub Not Found]]></title>
-    <link href="http://jxuao.me/2015/11/24/grub-rescue/"/>
-    <id>http://jxuao.me/2015/11/24/grub-rescue/</id>
+    <link href="http://xujqiao.github.io/2015/11/24/grub-rescue/"/>
+    <id>http://xujqiao.github.io/2015/11/24/grub-rescue/</id>
     <published>2015-11-24T14:07:12.000Z</published>
     <updated>2015-11-25T14:57:56.895Z</updated>
     <content type="html"><![CDATA[<h1 id="Grub_Rescue_Unknown_Filesystem,_but_you_can!">Grub Rescue Unknown Filesystem, but you can!</h1><blockquote>
@@ -186,11 +139,11 @@ grub resuce &gt; insmod /<span class="keyword">boot</span>/grub/normal.<span cla
 <p>If you are working wi]]>
     </summary>
     
-      <category term="computer" scheme="http://jxuao.me/tags/computer/"/>
+      <category term="computer" scheme="http://xujqiao.github.io/tags/computer/"/>
     
-      <category term="grub" scheme="http://jxuao.me/tags/grub/"/>
+      <category term="grub" scheme="http://xujqiao.github.io/tags/grub/"/>
     
-      <category term="Notes" scheme="http://jxuao.me/categories/Notes/"/>
+      <category term="Notes" scheme="http://xujqiao.github.io/categories/Notes/"/>
     
   </entry>
   
